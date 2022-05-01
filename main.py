@@ -1,10 +1,8 @@
-ingresos=int(input("ingresos: "))
-egresos=int(input("egresos: "))
-subsaldo= ingresos-egresos
+Salario_bruto= float(input("Ingrese tu salario: "))
 
-if subsaldo>=15000:
-        impuestos_altos=0.15
-        saldo_alto=subsaldo*impuestos_altos
+if Salario_bruto>=0.01 and 100000.00 :
+        Impuesto_base1= 0.00
+        Porcentaje_aplicable= 
         saldo_neto=subsaldo-saldo_alto
         print("salario luego de deducciones: ", saldo_neto)
         print("Deducciones inss  : ", saldo_alto)
