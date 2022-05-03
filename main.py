@@ -31,3 +31,25 @@ if salario_bruto>=200000.01 and salario_bruto <= 350000.00:
   print("IR mensual es: " , deducciones_mensual_3)
 else:
   print("nel perro")
+if salario_bruto>=350000.01 and salario_bruto <= 500000.00:
+  Impuesto_base4 = 45000.00
+  porcentaje_aplicable=0.25
+  deducciones_anuales4=((salario_bruto-350000.00 )*0.25)+Impuesto_base4
+  deducciones_mensual_4=deducciones_anuales4/12
+  saldo_neto4=(salario_bruto-deducciones_anuales4) / 12 
+  print("salario  mensual luego de deducciones: ", saldo_neto4)
+  print("las deducciones anuales son  : ", deducciones_anuales4)
+  print("IR mensual es: " , deducciones_mensual_4)
+else:
+  print("vamos real madrid ganale al city")
+if salario_bruto>=500000.01 :
+  Impuesto_base5 = 82500.00
+  porcentaje_aplicable=0.30
+  deducciones_anuales5=((salario_bruto-500000.00 )*0.30)+Impuesto_base5
+  deducciones_mensual_5=deducciones_anuales5/12
+  saldo_neto5=(salario_bruto-deducciones_anuales5) / 12 
+  print("salario  mensual luego de deducciones: ", saldo_neto5)
+  print("las deducciones anuales son  : ", deducciones_anuales5)
+  print("IR mensual es: " , deducciones_mensual_5)
+else:
+  ("hasta aqui llego")
