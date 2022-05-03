@@ -1,5 +1,5 @@
-salario_bruto= float(input("Ingrese tu salario anual: "))*12
- 
+salario_bruto= float(input("Ingrese tu salario: "))*12
+print ("salalario anual es :", salario_bruto)
 
 if salario_bruto <=100000.00 :
         Impuesto_base1= 0.00
@@ -10,9 +10,12 @@ else :
   print("no se puede")
 if salario_bruto>=100000.01 and salario_bruto <= 200000.00:
   Impuesto_base2 = 0.00
-  sobrexceso2=100000.00
   porcentaje_aplicable=0.15
-  saldo_neto2=((salario_bruto-Impuesto_base2)-sobrexceso2)*0.15
-  print("salario luego de deducciones: ", saldo_neto2)
+  deducciones_anuales=((salario_bruto-100000.00 )-Impuesto_base2)*0.15
+  deducciones_mensual=deducciones_anuales/12
+  saldo_neto2=(salario_bruto-deducciones_anuales) / 12 
+  print("salario  mensual luego de deducciones: ", saldo_neto2)
+  print("las deducciones anuales son  : ", deducciones_anuales)
+  print("IR mensual es: " , deducciones_mensual)
 else: 
   print("no se puede wey")
