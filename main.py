@@ -1,5 +1,6 @@
 salario_bruto= float(input("Ingrese tu salario: "))*12
 print ("salalario anual es :", salario_bruto)
+#insss=salario_bruto*0.0625
 
 if salario_bruto <=100000.00 :
   Impuesto_base1= 0.00
@@ -22,11 +23,11 @@ else:
 if salario_bruto>=200000.01 and salario_bruto <= 350000.00:
   Impuesto_base3 = 15000.00
   porcentaje_aplicable=0.20
-  deducciones_anuales=((salario_bruto-200000.00 )+Impuesto_base3)*0.20
-  deducciones_mensual=deducciones_anuales/12
-  saldo_neto2=(salario_bruto-deducciones_anuales) / 12 
-  print("salario  mensual luego de deducciones: ", saldo_neto2)
-  print("las deducciones anuales son  : ", deducciones_anuales)
-  print("IR mensual es: " , deducciones_mensual)
+  deducciones_anuales3=((salario_bruto-200000.00 )*0.20)+Impuesto_base3
+  deducciones_mensual_3=deducciones_anuales3/12
+  saldo_neto3=(salario_bruto-deducciones_anuales3) / 12 
+  print("salario  mensual luego de deducciones: ", saldo_neto3)
+  print("las deducciones anuales son  : ", deducciones_anuales3)
+  print("IR mensual es: " , deducciones_mensual_3)
 else:
   print("nel perro")
