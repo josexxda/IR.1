@@ -1,8 +1,9 @@
 salario_bruto= int(input("Ingrese tu salario: "))*12
-print ("salalario anual es :", salario_bruto)
-#insss=salario_bruto*0.0625
+print ("salario anual es :", salario_bruto)
+inss=salario_bruto*0.0625
+print("su insss es :", inss )
 if salario_bruto <=100000.00 :
-  saldo_neto= ((salario_bruto-0.00)-0.00)
+  saldo_neto= ((salario_bruto-0.00)-0.00) 
   print("salario luego de deducciones: ", saldo_neto)
   
 elif salario_bruto>=100000.01 and salario_bruto <= 200000.00:
@@ -37,4 +38,9 @@ elif salario_bruto>=500000.01 :
   print("las deducciones anuales son  : ", deducciones_anuales5)
   print("IR mensual es: " , deducciones_mensual_5)
 else:
-  ("gracias por todo")
+  ("nel perrro")
+  
+  print("gracias")
+  #no se que mas hacer
+  #faltan crear funciones para las deducciones y inss
+  #quiero crear  una app para planilla
