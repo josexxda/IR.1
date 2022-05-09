@@ -4,8 +4,8 @@ inss =salario*0.0625
 print("su insss es :", inss )
 #SALARIO ANUAL DE 100000.00 
 if salario <=100000.00 :
-  saldo_neto = ((salario-0.00)-0.00)
-  print("salario excento de IR: ", saldo_neto ,)
+     saldo_neto = ((salario-0.00)-0.00)
+     print("salario excento de IR: ", saldo_neto ,)
 #SALRIO ANUAL DE 100000.01 A 200000.00
 elif salario>=100000.01 and salario<= 200000.00:
      deducciones_anuales =((salario-100000.00 )*0.15)+0.00
